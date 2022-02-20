@@ -1,0 +1,239 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Black.woff2') format('woff2'),
+       url('../fonts/CircularStd-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+       url('../fonts/CircularStd-Book.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+       url('../fonts/CircularStd-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Circular';
+   src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+       url('../fonts/CircularStd-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+
+
+
+[class*="__container"]{
+   max-width: 1025px;
+   margin: 0 auto;
+}
+[class*="__container_1"]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+/* ----------------------------- */
+.wrapper{
+   font-family: lato;
+   color: #424551;
+}
+.top__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   color: #1E212C;
+   margin: 0px 0px 26px 0px;
+}
+
+.info p {
+   display: inline-block;
+   color: #787A80;
+   margin: 0px 24px 40px 0px;
+   line-height: 1.6;
+}
+.info__calendar {
+   padding: 0px 0px 0px 23px;
+   background: url("../img/Vector1.svg") no-repeat;
+}
+.info__time {
+   padding: 0px 0px 0px 23px;
+   background: url("../img/Vector2.svg") 0 0 / auto no-repeat;
+}
+.top__img {
+   margin: 0px 0px 60px 0px;
+}
+
+
+.bottom__text-bold {
+   font-weight: 700;
+   font-size: 20px;
+   color: #1E212C;
+   line-height: 1.5;
+}
+.bottom__text-bold_1{
+   margin: 0px 0px 24px 0px;
+}
+.bottom__text_1{
+   line-height: 1.6;
+   margin: 0px 0px 38px 0px;
+}
+.bottom__text_2{
+   line-height: 1.6;
+   margin: 0px 0px 48px 0px;
+}
+.bottom__text-bold_2{
+   background: url("../img/braces.svg") 0 0 / auto no-repeat;
+   padding: 0px 0px 0px 56px;
+   margin: 0px 0px 48px 0px;
+}
+
+.bottom__text{
+   line-height: 1.6;
+   margin: 0px 0px 24px 0px;
+}
+.bottom__list {
+   margin: 0px 0px 24px 0px;
+}
+
+.bottom__item {
+   background: url("../img/Vector3.svg") 0 5px / auto no-repeat;
+   padding: 0px 0px 0px 31px;
+   line-height: 1.6;
+}
+/* ------------------------- */
+
+.createx__sub-title {
+   font-weight: 700;
+   line-height: 1.5;
+   letter-spacing: 1px;
+   margin-bottom: 8px;
+   color: #1E212C;
+}
+.createx__title {
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 1.3;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+.createx__list {
+   margin-bottom: 36px;
+   max-width: 390px;
+}
+.createx__item {
+   background: url("../img/Vector3.svg") 0 5px / auto no-repeat;
+   padding: 0px 0px 0px 32px;
+   line-height: 1.6;
+   margin: 0px 0px 12px 0px;
+}
+.createx__btn{
+   margin-bottom: 50px;
+}
+.createx__link {
+   font-weight: 700;
+   font-size: 14px;
+   color: #fff;
+   line-height: 3.1;
+   text-align: center;
+   letter-spacing: 0.5px;
+   padding: 16px 32px;
+   background-image: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   border-radius: 4px;
+}
+/* -------------------------- */
+
+
+
+.homework{
+   background: url("../img/dark-background.jpg") no-repeat;
+   background-size: cover;
+}
+.button {
+   display: flex;
+   justify-content: center;
+}
+.homework__link{
+   display: inline-block;
+   padding: 15px 40px;
+   border-radius: 8px;
+   margin: 50px 30px 50px 0px; 
+
+}
+
+.homework__link_one {
+   font-family: Circular;
+   background-color: rgb(23, 159, 201);
+   box-shadow: 0 0 5px 5px rgb(20, 127, 160);
+   color: #fff;
+
+}
+.homework__link_two {
+   font-family: Circular;
+   font-weight: 700;
+   background: rgb(24, 161, 59);
+   box-shadow: 0 0 5px 5px rgb(13, 238, 88);
+   border: 2px solid #fff;
+   text-shadow: 2px 2px 2px rgb(0, 0, 0);
+   color: #fff;
+}
+.homework__link_three {
+   font-family: Circular;
+   font-weight: 900;
+   background-color: rgb(216, 61, 108);
+   box-shadow: 0 0 15px 5px rgb(233, 9, 203), inset 0 0 15px 5px rgb(177, 27, 169);
+   color: #fff;
+}
+
+
+.block-one{
+   padding: 30px 0px;
+   background: url("../img/maxresdefault.jpg") 0 / cover no-repeat;
+}
+
+.text-bg__one {
+   display: inline-block;
+   max-width: 400px;
+   max-height: 300px;
+   overflow: auto;
+   background: url("../img/contra-dandy-nes-kontra-dendi.jpg") local;
+   background-size: contain;
+   padding: 20px 10px;
+   text-align: center;
+   color: #fff;
+   margin: 0px 20px 0px 0px;
+
+}
+.text-bg__two {
+   display: inline-block;
+   background-image: url("../img/cards-art-black-color.jpg");
+   background-attachment: fixed;
+   background-size: contain;
+   padding: 20px 10px;
+   color: #fff;
+   text-shadow: 2px 2px 2px #000;
+   max-width: 400px;
+}
+
+.image{
+   max-width: 810px;
+   background: url("../img/contra-dandy-nes-kontra-dendi.jpg") center center / 300px 70px no-repeat, url("../img/01.jpg") 0 0 / auto no-repeat;
+}
